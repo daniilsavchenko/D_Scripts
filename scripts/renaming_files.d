@@ -9,7 +9,6 @@ alias file = std.file;
 
 void main() {
 	foreach ( name; dirEntries("F:/ARenamingFiles", SpanMode.breadth)) {
-	    rename( name, name.replace( "FFThPh", "FFAzEl" ) );
+	    rename( name, name.replace( "UseProbe", "PolarChannelsBalancing" ) );
 	}
 }
-
